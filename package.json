@@ -4,6 +4,9 @@
   "description": "Proyecto personal",
   "main": "index.js",
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.5",
     "ansi-styles": "^3.2.1",
     "browserslist": "^4.23.2",
     "caniuse-lite": "^1.0.30001643",
@@ -15,8 +18,8 @@
     "electron-to-chromium": "^1.4.832",
     "esbuild": "^0.21.5",
     "escalade": "^3.1.2",
-    "gensync": "^1.0.0-beta.2",
     "escape-string-regexp": "^1.0.5",
+    "gensync": "^1.0.0-beta.2",
     "globals": "^11.12.0",
     "has-flag": "^3.0.0",
     "js-tokens": "^4.0.0",
@@ -34,15 +37,14 @@
     "react-refresh": "^0.14.2",
     "rollup": "^4.19.0",
     "scheduler": "^0.23.2",
-    "source-map-js": "^1.2.0",
     "semver": "^6.3.1",
+    "source-map-js": "^1.2.0",
     "supports-color": "^5.5.0",
     "to-fast-properties": "^2.0.0",
-    "vite": "^5.3.4",
     "update-browserslist-db": "^1.1.0",
+    "vite": "^5.3.4",
     "yallist": "^3.1.1"
   },
-  
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
