@@ -16,16 +16,3 @@ body {
   box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
 }
 
-.section-1 {
-  background-color: #f8b400;
-}
-
-.section-2 {
-  background-color: #4a90e2;
-  color: #fff;
-}
-
-.section-3 {
-  background-color: #7ed321;
-  color: #fff;
-}
