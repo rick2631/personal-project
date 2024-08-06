@@ -19,12 +19,25 @@ const Navbar = () => {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          RICHARD ZAMORA
+
+        <Typography 
+          variant="h3" 
+          color='#f71066' 
+          component="div" 
+          sx={{ 
+            flexGrow: 1,
+            fontWeight: 'bold', 
+            letterSpacing: 2, 
+            textTransform: 'uppercase',
+            display: 'inline-block'
+          }}
+        >
+          RZ
         </Typography>
         <BasicButtons />
       </Toolbar>
     </AppBar>
   );
 }
+
 export default Navbar;
