@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  overflow-x: hidden; /* Previene el scroll horizontal */
+  overflow-x: hidden;
+  /* Previene el scroll horizontal */
 }
 
 .container {
@@ -10,17 +11,30 @@ body {
 }
 
 .section {
-  width: 100%; /* Ocupa todo el ancho de la ventana */
-  height: 100vh; /* Ocupa toda la altura de la ventana */
+  width: 100%;
+  /* Ocupa todo el ancho de la ventana */
+  height: 100vh;
+  /* Ocupa toda la altura de la ventana */
   padding: 60px;
-  box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
+  box-sizing: border-box;
+  /* Incluye el padding en el ancho y alto total */
 }
 
 .centered-content {
-  display: flex; /* Habilita flexbox en el div interno */
-  flex-direction: column; /* Apila los elementos en una columna */
-  align-items: center; /* Centra el contenido horizontalmente */
-  justify-content: center; /* Centra el contenido verticalmente */
-  text-align: center; /* Centra el texto dentro de los elementos */
-  margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+  display: flex;
+  /* Habilita flexbox en el div interno */
+  flex-direction: column;
+  /* Apila los elementos en una columna */
+  align-items: center;
+  /* Centra el contenido horizontalmente */
+  justify-content: center;
+  /* Centra el contenido verticalmente */
+  text-align: center;
+  /* Centra el texto dentro de los elementos */
+  margin-top: 20px;
+  /* Ajusta la distancia desde la parte superior */
+}
+
+.list-no-decor {
+  list-style-type: none;
 }
