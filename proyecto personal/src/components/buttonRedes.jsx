@@ -6,27 +6,29 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { RxDoubleArrowDown } from "react-icons/rx";
+import { FaRegFilePdf } from "react-icons/fa";
 
 
 export default function RedesButton() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
       <Stack spacing={3} direction="row">
-        <Button
-          href="https://www.instagram.com/rishart27/?hl=es-es"
-          target="_blank"
-          rel="noopener"
-          sx={{
-            color: 'white',
-            '&:hover': {
-              backgroundColor: '#C13584',
-              transform: 'scale(1.1)',
-            },
-            transition: 'all 0.3s ease-in-out',
-          }}
-        >
-          <InstagramIcon sx={{ fontSize: 60 }} />
-        </Button>
+      <Button
+  href="/Curriculum full stack.pdf"
+  target="_blank"
+  rel="noopener"
+  sx={{
+    color: 'white',
+    '&:hover': {
+      backgroundColor: 'red',
+      transform: 'scale(1.1)',
+    },
+    transition: 'all 0.3s ease-in-out',
+  }}
+>
+  < FaRegFilePdf style={{ fontSize: 60 }} />
+</Button>
         <Button
           href="https://wa.me/50769080257"
 
@@ -73,7 +75,7 @@ export default function RedesButton() {
         >
           <GitHubIcon sx={{ fontSize: 60 }}/>
         </Button>
-      
+     
       </Stack>
     </div>
   );
