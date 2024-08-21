@@ -26,9 +26,11 @@ const Home = () => {
                 variant="h3"
                 component="h1"
                 gutterBottom
+                fontFamily ='Arial, sans-serif' 
                 sx={{ fontWeight: 'bold', color: '#f71066' }}
+                
               >
-                Hello I am ..
+                Hello I am
               </Typography>
               <Typography
                 variant="h2"
@@ -43,8 +45,9 @@ const Home = () => {
                 component="h1"
                 gutterBottom
                 sx={{ fontWeight: 'bold', color: '#f71066' }}
+                className="typing-effect"
               >
-                Developer 
+                Full Stack Developer ...
               </Typography>
             </div>
             <RedesButton />
@@ -60,34 +63,42 @@ const Home = () => {
               sx={{ fontWeight: 'bold', color: '#f71066' }}
             >
               About Me
+              <br />
+              <br />
             </Typography>
             <Grid container spacing={4}>
               <Grid item xs={12} md={4}>
                 <img
-                  src={imgRichard}
+                  src={imgRichard
+                    
+                  }
                   alt="Richard Zamora"
                  className="responsive-img"
+                 style={{ borderRadius: '50%', width: '200px', height: '200px',border: '5px solid white'  }}
                 />
               </Grid>
               <Grid item xs={8}>
                 <Typography
-                  variant="h7"
+                  variant="h6"
                   component="h4"
                   gutterBottom
-                  sx={{ fontWeight: 'bold', color: '#ffffff', textAlign: 'justify' }}
+                  sx={{   fontFamily:'Arial, sans-serif' , color: '#ffffff', textAlign: 'justify' }}
+                
                 >
-                  "I am new to the world of programming, but I am deeply excited by the potential offered by this constantly evolving field. Every day I join with curiosity and openness to the vast universe of information technologies. As I advance in my learning, I discover new tools, languages and methodologies that broaden my understanding and skills. My goal is to continue to grow and adapt to the challenges and opportunities presented by this exciting world, as I strive to master emerging technologies and contribute meaningfully to the programming field."
+                  "I am new to programming and excited about the possibilities in this ever-evolving field. Each day, I explore the world of information technology with curiosity and openness. As I learn, I discover new tools, languages, and methodologies that expand my skills. My goal is to continue growing and adapting to the challenges and opportunities in programming, mastering emerging technologies, and making meaningful contributions."
                   <br />
                   <br />
-                  Some of the technologies I am comfortable with:
-                  <ul className="list-no-decor">
-                    <li><IoLogoJavascript color="#f0db4f" /> ES6 JavaScript</li>
-                    <li><FaReact color="#61dafb" /> React</li>
-                    <li><IoLogoCss3 color="#2965f1" /> CSS</li>
-                    <li><FaHtml5 color="#e34f26" /> HTML</li>
-                    <li><FaNodeJs color="#339933" /> Node.js</li>
-                    <li><IoTerminal color="#5865f2" /> Terminal</li>
-                  </ul>
+                  Some of the technologies I am comfortable with:   <br />
+                  <br />
+                  <ul className="list-no-decor list-inline">
+  <li><IoLogoJavascript color="#f0db4f" size={44} /> ES6 JavaScript</li>
+  <li><FaReact color="#61dafb" size={44} /> React</li>
+  <li><IoLogoCss3 color="#2965f1" size={44} /> CSS</li>
+  <li><FaHtml5 color="#e34f26" size={44} /> HTML</li>
+  <li><FaNodeJs color="#339933" size={44} /> Node.js</li>
+  <li><IoTerminal color="#5865f2" size={44} /> Terminal</li>
+</ul>
+
                 </Typography>
                 <div/>
               </Grid>
@@ -103,6 +114,8 @@ const Home = () => {
               sx={{ fontWeight: 'bold', color: '#f71066' }}
             >
               Projects
+              <br />
+              <br />
             </Typography>
             <ActionAreaCard />
           </section>

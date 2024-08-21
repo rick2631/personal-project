@@ -9,7 +9,7 @@ export default function BasicButtons() {
   return (
     <Stack spacing={2} direction="row">
       <Button sx={{ textDecoration: 'none', color: 'inherit' }} text="contained">
-        <a href="#section-1" style={{ textDecoration: 'none', color: 'inherit' }}>Presentación</a>
+        <a href="#section-1" style={{ textDecoration: 'none', color: 'inherit' }}>Presentation</a>
       </Button>
       <Button sx={{ textDecoration: 'none', color: 'inherit' }} text="contained">
         <a href="#section-2" style={{ textDecoration: 'none', color: 'inherit' }}>About Me</a>

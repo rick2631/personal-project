@@ -41,7 +41,82 @@ body {
   /* Elimina el padding por defecto */
   margin: 0;
   /* Elimina el margin por defecto */
+  display: flex;
+  flex-wrap: wrap;
+  /* Para que los elementos se envuelvan en una nueva línea si no caben */
+  gap: 30px;
+  /* Espaciado entre los elementos */
+  list-style-type: none;
+  /* Elimina los puntos de las listas */
+
+
 }
+
+.typing-effect {
+  overflow: hidden;
+  /* Esconder el texto fuera del área visible */
+  white-space: nowrap;
+
+  /* Mantener el texto en una línea */
+  .typing-effect {
+    overflow: hidden;
+    /* Esconder el texto fuera del área visible */
+    white-space: nowrap;
+    /* Mantener el texto en una línea */
+    border-right: 4px solid #f71066;
+    /* Simular el cursor */
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+
+    from,
+    to {
+      border-color: transparent;
+    }
+
+    50% {
+      border-color: #f71066;
+    }
+  }
+
+  animation: typing 3.5s steps(30, end),
+  blink-caret 0.75s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #f71066;
+  }
+}
+
 
 /* Media Queries para responsividad */
 @media (max-width: 1200px) {

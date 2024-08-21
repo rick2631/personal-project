@@ -17,7 +17,7 @@ export default function ScrollButton() {
       <Button 
         onClick={handleScrollDown}
         sx={{ 
-          
+          fontWeight: 'bold', 
           color: '#f71066', 
           fontSize: '2rem', // Tamaño del texto
           minWidth: 'auto',
